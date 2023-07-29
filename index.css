@@ -1,0 +1,24 @@
+:root {
+    --background: #ffffff;
+    --button: #0000ff;
+    --base-size: 10px ;
+    --text-color: #00000f ;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-size: var(--base-size);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+.test {
+    font-size: 2rem;
+}
